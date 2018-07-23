@@ -1,11 +1,6 @@
 /*
- * jQuery Form Styler v2.0.0
- * https://github.com/Dimox/jQueryFormStyler
- *
- * Copyright 2012-2017 Dimox (http://dimox.name/)
- * Released under the MIT license.
- *
- * Date: 2017.05.08
+ * jQuery Form Styler worldskills (from 2.0.0)
+ * https://github.com/CodingJediKnight/jQueryFormStyler
  *
  */
 

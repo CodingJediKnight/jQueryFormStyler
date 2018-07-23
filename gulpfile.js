@@ -13,7 +13,7 @@ gulp.task('default:dist', ['stylus:dist']);
 gulp.task('default:test', ['stylus:test', 'webserver:test']);
 
 var pkg = require('./package.json');
-var head = ['/* jQuery Form Styler v<%= pkg.version %> | (c) Dimox | https://github.com/Dimox/jQueryFormStyler */\n'];
+var head = ['/* jQuery Form Styler worldskills (from v<%= pkg.version %>) | https://github.com/CodingJediKnight/jQueryFormStyler */\n'];
 var path = {
 	test: '../test/',
 	dist: 'dist/',
