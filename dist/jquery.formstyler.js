@@ -425,7 +425,8 @@
 
 							if ((scrollTop >= scrollDiff && wheelDelta < 0) || (scrollTop <= 0 && wheelDelta > 0)) {
 								e.stopPropagation();
-								e.preventDefault();
+								// Возвращаем дефолтный скролл
+								// e.preventDefault();
 							}
 
 						});
@@ -503,7 +504,7 @@
 									'<div class="jq-selectbox__select">' +
 										'<div class="jq-selectbox__select-text"></div>' +
 										'<div class="jq-selectbox__trigger">' +
-											'<div class="jq-selectbox__trigger-arrow"></div></div>' +
+											'<div class="jq-selectbox__trigger-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="22.285" height="8.756" viewBox="0 0 22.285 8.756"><path d="M21.213 0l1.072 1.69-11.143 7.066L0 1.69 1.072 0l10.07 6.388L21.212 0z"></path></svg></div></div>' +
 									'</div>' +
 								'</div>')
 							.attr({
